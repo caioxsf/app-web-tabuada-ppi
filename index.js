@@ -14,7 +14,7 @@ function paginaInicial (requisicao, resposta) {
     resposta.write('</head>');
     resposta.write('<body>');
     resposta.write('<h1>Página inicial Programação para internet</h1>');
-    resposta.write('<p>Acesse http://localhost:3000/tabuada ou ' + '<a href="http://localhost:3000/tabuada">Clique aqui</a>'+'</p>');
+    resposta.write('<p>Acesse https://app-web-tabuada-ppi.vercel.app/tabuada ou ' + '<a href="https://app-web-tabuada-ppi.vercel.app/tabuada">Clique aqui</a>'+'</p>');
     resposta.write('</body>');
     resposta.write('</html>');
     resposta.end();
@@ -46,7 +46,7 @@ function tabuada (requisicao, resposta)
         }
     }
     else {
-        resposta.write('<h1>Informe o parâmetro valor na url: http://localhost:3000/tabuada?valor=3&sequencia=10</h1>');
+        resposta.write('<h1>Informe o parâmetro valor na url: https://app-web-tabuada-ppi.vercel.app/tabuada?valor=3&sequencia=10</h1>');
         resposta.write('<p>O valor e sequencia pode ser qualquer um!</p>');
     }
 
